@@ -1,0 +1,12 @@
+task,model,method,main_metric,result,best_epoch,status
+SST-2,roberta-base,LoRA,accuracy,0.9507,,completed
+CoLA,roberta-base,LoRA,MCC,0.613238,7,completed
+MRPC,roberta-base,LoRA,accuracy,0.867647,10,completed
+MRPC,roberta-base,LoRA,F1,0.904594,10,completed
+RTE,roberta-base,LoRA,accuracy,0.743682,9,completed
+STS-B,roberta-base,LoRA,Pearson,0.908779,7,completed
+STS-B,roberta-base,LoRA,Spearman_at_selected_checkpoint,0.903293,7,completed
+WebNLG,Qwen2.5-7B-Instruct,QLoRA,BLEU,46.6605,,completed
+WebNLG,Qwen2.5-7B-Instruct,QLoRA,chrF,75.3747,,completed
+DialogSum,Qwen2.5-7B-Instruct,QLoRA,validation_loss,0.9242,1,pilot
+DART,,,not_completed,,future_work
