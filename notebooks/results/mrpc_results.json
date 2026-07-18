@@ -1,0 +1,18 @@
+{
+  "task": "MRPC",
+  "model": "roberta-base",
+  "method": "LoRA",
+  "best_validation_accuracy": 0.867647,
+  "best_validation_f1": 0.904594,
+  "best_epoch_by_accuracy": 10,
+  "num_train_epochs": 10,
+  "learning_rate": 0.0005,
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "target_modules": [
+    "query",
+    "value"
+  ],
+  "trainable_parameters": 887042,
+  "trainable_percentage": 0.7066
+}
