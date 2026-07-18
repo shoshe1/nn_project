@@ -1,0 +1,17 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "method": "QLoRA",
+  "dataset": "WebNLG",
+  "training_steps": 1000,
+  "trainable_parameters": 20185088,
+  "trainable_percentage": 0.2643,
+  "training_loss": 0.537522,
+  "validation_loss": 0.49856483936309814,
+  "evaluation_examples": 100,
+  "bleu": 46.66052520441557,
+  "chrf": 75.37469872249392,
+  "quantization": "4-bit NF4 with double quantization",
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "learning_rate": 0.0002
+}

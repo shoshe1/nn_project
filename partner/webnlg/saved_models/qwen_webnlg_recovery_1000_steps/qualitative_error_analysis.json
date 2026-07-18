@@ -1,0 +1,30 @@
+[
+  {
+    "validation_index": 0,
+    "quality": "strong",
+    "reference": "The leader of Aarhus is Jacob Bundsgaard.",
+    "generated": "Jacob Bundsgaard is the leader of Aarhus.",
+    "analysis": "The generated sentence preserves the complete factual meaning and expresses it fluently using a different word order."
+  },
+  {
+    "validation_index": 2,
+    "quality": "strong",
+    "reference": "Adirondack Regional Airport is 507 metres above sea level.",
+    "generated": "Adirondack Regional Airport is 507 metres above sea level.",
+    "analysis": "The generated output exactly matches the reference and includes the entity, numerical value, and unit correctly."
+  },
+  {
+    "validation_index": 10,
+    "quality": "partial",
+    "reference": "The Alderney Airport serves Alderney.",
+    "generated": "Alderney airport serves the city of Alderney.",
+    "analysis": "The main relation is correct, but the model adds the phrase 'the city of', which is not explicitly supported by the input."
+  },
+  {
+    "validation_index": 15,
+    "quality": "minor_error",
+    "reference": "Andrews County, Texas is country seat to Andrews, Texas.",
+    "generated": "The county seat of Andrews County, Texas is Andrews.",
+    "analysis": "The county-seat relation is preserved, but the generated output drops the state name 'Texas' from the target entity."
+  }
+]

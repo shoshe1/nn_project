@@ -1,0 +1,6 @@
+{
+  "evaluation_subset": "first 100 validation examples",
+  "number_of_examples": 100,
+  "bleu": 46.66052520441557,
+  "chrf": 75.37469872249392
+}
