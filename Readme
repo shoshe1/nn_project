@@ -1,0 +1,19 @@
+## Team Contributions
+
+### Shahd
+
+- Reproduced LoRA experiments using RoBERTa-base on SST-2.
+- Ran and analyzed additional GLUE experiments, including CoLA, MRPC,
+  RTE, and STS-B.
+- Tested loading and adapting Qwen2.5-7B-Instruct using 4-bit QLoRA.
+- Verified forward and backward propagation.
+- Ran pilot experiments.
+- Completed the WebNLG QLoRA experiment and generation evaluation.
+- Produced learning curves, metrics files, and experiment analysis.
+
+### Partner
+
+- [Insert the exact tasks completed by the partner.]
+- [Insert the datasets or models handled by the partner.]
+- [Insert the final metrics.]
+- [Insert analysis and presentation responsibilities.]
