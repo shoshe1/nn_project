@@ -26,6 +26,28 @@ checkpoint-*/
 *.pth
 *.ckpt
 
+# Partner WebNLG saved models: keep only lightweight result files
+partner/webnlg/saved_models/**
+!partner/webnlg/saved_models/
+!partner/webnlg/saved_models/**/
+!partner/webnlg/saved_models/**/README.md
+!partner/webnlg/saved_models/**/training_metrics.json
+!partner/webnlg/saved_models/**/validation_metrics.json
+!partner/webnlg/saved_models/**/trainer_log_history.json
+!partner/webnlg/saved_models/**/generation_metrics_100_examples.json
+!partner/webnlg/saved_models/**/generation_examples_10.json
+!partner/webnlg/saved_models/**/generation_predictions_100_examples.json
+!partner/webnlg/saved_models/**/qualitative_error_analysis.json
+!partner/webnlg/saved_models/**/experiment_summary.json
+!partner/webnlg/saved_models/**/*.png
+
+# Explicitly exclude adapter/tokenizer artifacts
+partner/webnlg/saved_models/**/adapter_model.safetensors
+partner/webnlg/saved_models/**/adapter_config.json
+partner/webnlg/saved_models/**/tokenizer.json
+partner/webnlg/saved_models/**/tokenizer_config.json
+partner/webnlg/saved_models/**/special_tokens_map.json
+
 # Logs and temporary files
 *.log
 .DS_Store
