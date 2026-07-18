@@ -1,0 +1,8 @@
+{
+  "task": "RTE",
+  "model": "roberta-base + LoRA",
+  "best_accuracy": 0.7437,
+  "epochs": 10,
+  "learning_rate": 0.0005,
+  "batch_size": 16
+}

@@ -1,0 +1,10 @@
+{
+  "model": "Qwen2.5-14B-Instruct",
+  "quantization": "4-bit NF4",
+  "gpu": "NVIDIA L4 24GB",
+  "loaded": true,
+  "gpu_memory_gb": 10.4,
+  "generation_success": true,
+  "generation_time_seconds": 3,
+  "peak_memory_gb": 9.43
+}
