@@ -1,0 +1,20 @@
+{
+  "task": "CoLA",
+  "model": "roberta-base",
+  "method": "LoRA",
+  "metric": "Matthews correlation coefficient",
+  "best_validation_mcc": 0.613238,
+  "best_epoch": 7,
+  "final_epoch_mcc": 0.595815,
+  "best_validation_loss": 0.445555,
+  "num_train_epochs": 10,
+  "learning_rate": 0.0005,
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "target_modules": [
+    "query",
+    "value"
+  ],
+  "trainable_parameters": 887042,
+  "trainable_percentage": 0.7066
+}
