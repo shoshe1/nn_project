@@ -1,0 +1,52 @@
+[
+  {
+    "reference": "The leader of Aarhus is Jacob Bundsgaard.",
+    "generated": "Jacob Bundsgaard is the leader of Aarhus.",
+    "validation_index": 0
+  },
+  {
+    "reference": "Aarhus Airport's runway length is 2702.0.",
+    "generated": "The runway length of Aarhus Airport is 2702.0.",
+    "validation_index": 1
+  },
+  {
+    "reference": "Adirondack Regional Airport is 507 metres above sea level.",
+    "generated": "Adirondack Regional Airport is 507 metres above sea level.",
+    "validation_index": 2
+  },
+  {
+    "reference": "Adirondack Regional airport is located at Harrietstown, New York.",
+    "generated": "The Adirondack Regional Airport is located in Harrietstown, New York.",
+    "validation_index": 3
+  },
+  {
+    "reference": "Adolfo Suárez Madrid–Barajas Airport is found in San Sebastián de los Reyes.",
+    "generated": "Adolfo Suarez Madrid-Barajas Airport is located in San Sebastian de los Reyes.",
+    "validation_index": 4
+  },
+  {
+    "reference": "Adolfo Suárez Madrid-Barajas Airport runway name is 14L/32R.",
+    "generated": "The runway name of Adolfo Suárez Madrid–Barajas Airport is 14L/32R.",
+    "validation_index": 5
+  },
+  {
+    "reference": "14R/32L is the name of the runway for Adolfo Suárez Madrid–Barajas Airport.",
+    "generated": "The runway name of Adolfo Suárez Madrid–Barajas Airport is 14R/32L.",
+    "validation_index": 6
+  },
+  {
+    "reference": "The operating organization for Afonso Pena International Airport is Infraero.",
+    "generated": "Infraero is the operating organisation of Afonso Pena International Airport.",
+    "validation_index": 7
+  },
+  {
+    "reference": "Agra Airport is in Agra.",
+    "generated": "The location of Agra Airport is Agra.",
+    "validation_index": 8
+  },
+  {
+    "reference": "Al-Taqaddum Air Base is 84 metres above sea level.",
+    "generated": "Al-Taqaddum Air Base is 84 metres above sea level.",
+    "validation_index": 9
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "eval_loss": 0.49856483936309814,
+  "training_loss_at_step_1000": 0.537522,
+  "step": 1000,
+  "validation_examples": 1667
+}
