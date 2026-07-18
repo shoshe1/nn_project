@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Hugging Face caches and datasets
+.cache/
+**/.cache/
+tokenized_data/
+**/tokenized_data/
+
+# Training checkpoints
+experiments/
+**/experiments/
+checkpoint-*/
+**/checkpoint-*/
+
+# Model weights
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Logs and temporary files
+*.log
+.DS_Store
